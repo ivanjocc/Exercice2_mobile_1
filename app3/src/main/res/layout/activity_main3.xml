@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity3">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <EditText
+            android:id="@+id/name3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text"
+            android:hint="Name" />
+
+        <EditText
+            android:id="@+id/last3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text"
+            android:hint="prenom" />
+
+        <EditText
+            android:id="@+id/year3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number"
+            android:hint="annee de naissance"/>
+
+        <EditText
+            android:id="@+id/specialite3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text"
+            android:hint="specialite" />
+
+        <Button
+            android:id="@+id/appeler3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="appeler a2"
+            android:textSize="30sp"
+            android:onClick="appeler3"/>
+
+        <TextView
+            android:id="@+id/validation3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="message de validation"
+            android:textSize="30sp"/>
+    </LinearLayout>
+
+</android.widget.RelativeLayout>
