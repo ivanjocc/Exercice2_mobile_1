@@ -17,3 +17,5 @@ rootProject.name = "exercice2"
 include(":app")
 include(":app2")
 include(":app3")
+include(":app4")
+include(":app5")
